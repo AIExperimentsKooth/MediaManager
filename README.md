@@ -16,6 +16,7 @@ A Python-based GUI application for reading EPUB and PDF books with progress trac
 
 - Python 3.7+
 - PyPDF2 (for PDF text extraction)
+- Pillow (for EPUB image display)
 
 ## Installation
 
@@ -70,6 +71,6 @@ MediaManager/
 
 ## Notes
 
-- EPUB reading extracts text content (images are not displayed)
+- EPUB reading displays text and inline images (requires Pillow)
 - PDF reading extracts text (scanned/image-only PDFs may not have extractable text)
 - Removing a book from the library does NOT delete the file from disk
