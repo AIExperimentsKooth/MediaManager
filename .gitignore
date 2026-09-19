@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+progress.json
+library.json
+.venv/
+venv/
